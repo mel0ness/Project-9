@@ -766,6 +766,9 @@ textarea {
   }
 }
 
+.modal.show .modal-dialog {
+  transform: none;
+}
 
 .modal-backdrop {
   position: fixed;
