@@ -76,10 +76,13 @@
 	</div>
 	<div id="about">
 		<div class="picture left">
-			<picture>
+			<!-- <picture>
 				<source media="(max-width: 1000px)" srcset="./assets/images/nina-mobile.webp">
 				<img width="560px" height="558px" src="./assets/images/nina.webp" alt="nina">
-			</picture>
+			</picture> -->
+			<img loading="lazy" width="560px" height="558px"
+				srcset="./assets/images/nina-mobile.webp 417w, ./assets/images/nina.webp 560w"
+				sizes="(max-width: 1000px) 417px, 560px" src="./assets/images/nina.webp" alt="Nina" />
 		</div>
 		<div id="about-me">
 			<h3 class="about-me__title">A propos de moi</h3>
