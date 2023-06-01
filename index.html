@@ -6,18 +6,17 @@
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="icon" href="./assets/images/instagram.png" />
-	<link rel="preload" as="font">
 	<meta charset="UTF-8">
 	<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
-	<title>Nina Carducci - Photographe professionnelle</title>
+	<title>Nina Carducci - Photographe professionnelle sur Bordeaux</title>
 	<meta name="description"
-		content="Professionnelle de la photograpie, n'hésitez pas à me contacter pour vos évenements, mariages ou de simple portraits. Travaille également pour des pros." />
+		content="Professionnelle de la photograpie à Bordeaux, n'hésitez pas à me contacter pour vos évenements, mariages ou de simple portraits. Travaille également pour des pros." />
 
 	<meta property="og:title" content="Nina Carducci - Photographe professionnelle" />
 	<meta property="og:url" content="https://mel0ness.github.io/Project-9/" />
-	<meta property="og:image" content="https://mel0ness.github.io/Project-9/assets/images/nina-rez.webp" />
+	<meta property="og:image" content="https://mel0ness.github.io/Project-9/assets/images/nina-rez.jpg" />
 	<meta property="og:description"
-		content="Professionnelle de la photograpie, n'hésitez pas à me contacter pour vos évenements, mariages ou de simple portraits. Travaille également pour des pros. Vous pouvez consulter mes réalisation dans la section Portfolio." />
+		content="Professionnelle de la photograpie à Bordeaux, n'hésitez pas à me contacter pour vos évenements, mariages ou de simple portraits. Travaille également pour des pros." />
 	<meta property="og:site_name" content="Nina Carducci" />
 	<meta property="og:type" content="website" />
 
@@ -26,7 +25,7 @@
 	<meta name="twitter:site" content="@ninacarducci">
 	<meta name="twitter:title" content="Nina Carducci - Photographe professionnelle" />
 	<meta name="twitter:description"
-		content="Professionnelle de la photograpie, n'hésitez pas à me contacter pour vos évenements, mariages ou de simple portraits. Travaille également pour des pros." />
+		content="Professionnelle de la photograpie à Bordeaux, n'hésitez pas à me contacter pour vos évenements, mariages ou de simple portraits. Travaille également pour des pros." />
 	<!-- Twitter summary card avec image large de 280x150px -->
 	<meta name="twitter:image:src" content="https://mel0ness.github.io/Project-9/assets/images/nina-rez.webp" />
 
@@ -34,7 +33,7 @@
 </head>
 
 <body>
-	<div class="top-header">
+	<Header class="top-header">
 		<div class="name h3">Nina Carducci</div>
 		<div class="nav">
 			<ul>
@@ -46,7 +45,7 @@
 						aria-label="Instagram"><img src="assets/images/instagram.png" alt=""></a></li>
 			</ul>
 		</div>
-	</div>
+	</header>
 	<div id="header">
 
 		<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -93,7 +92,7 @@
 			</button>
 		</div>
 	</div>
-	<div id="about">
+	<section id="about">
 		<div class="picture left">
 
 			<img loading="lazy" width="560px" height="558px"
@@ -102,9 +101,10 @@
 		</div>
 		<div id="about-me">
 			<h1 class="about-me__title h3">A propos de moi</h1>
-			<h2 class="about-me__introduction h4">Devenir photographe était pour moi une évidence. Comme si j’y étais
+			<article class="about-me__introduction h4">Devenir photographe était pour moi une évidence. Comme si j’y
+				étais
 				prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre
-				immortels, voilà ce qui me fait vibrer.</h2>
+				immortels, voilà ce qui me fait vibrer.</article>
 			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie :
 				le
 				figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos
@@ -116,9 +116,9 @@
 				la
 				tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 		</div>
-	</div>
-	<div id="gallery">
-		<h3 class="title">Portfolio</h3>
+	</section>
+	<section id="gallery">
+		<h2 class="title h3">Portfolio</h2>
 		<div class="container py-3">
 			<div class="gallery" style="display: none">
 				<img loading="lazy" data-gallery-tag="Concert" class="gallery-item"
@@ -166,7 +166,7 @@
 
 			</div>
 		</div>
-		<div class="quote">
+		<article class="quote">
 			<figure>
 				<blockquote>
 					<h3 class="quote__text h1">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un
@@ -176,10 +176,12 @@
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
-		</div>
-	</div>
-	<div id="services">
+		</article>
+	</section>
+	<section id="services">
 		<h2 class="title h3">Mes services</h2>
+
+
 		<div class="container">
 			<div class="service">
 				<div class="service__description">
@@ -216,7 +218,16 @@
 				</div>
 			</div>
 		</div>
-	</div>
+		<article class="contact-direct" itemscope itemtype="https://schema.org/LocalBusiness">Contactez moi directement
+			si vous êtes intéressés:
+			<ul>
+				<li itemprop="address">68 avenue Alsace-Lorraine, 33200 Bordeaux</li>
+				<li class="bold" itemprop="telephone">05 56 67 78 89</li>
+				<li>Ou vous pouvez remplir mon formulaire de <a href="#contact">contact</a> directement</li>
+			</ul>
+			<p>Je réponds au téléphone du lundi au vendredi de 10h à 19h.</p>
+		</article>
+	</section>
 	<div class="quote">
 		<figure>
 			<blockquote>
@@ -226,7 +237,8 @@
 			<figcaption class="quote__author">- Richard Avedon</figcaption>
 		</figure>
 	</div>
-	<div id="contact">
+	<section id="contact">
+
 		<div class="container">
 			<div class="form-container">
 				<h2>Une question ? Une demande de devis ?</h2>
@@ -241,11 +253,14 @@
 					<input type="submit" value="Envoyer" />
 				</form>
 			</div>
+
 			<div class="picture right">
 				<img loading="lazy" width="399px" height="398px" src="./assets/images/camera.webp" alt="camera">
 			</div>
+
 		</div>
-	</div>
+
+	</section>
 	<script src="./assets/jquery-3.7.0.min.js" crossorigin="anonymous"></script>
 	<script src="./assets/scripts.js"></script>
 	<script src="./assets/maugallery.js"></script>

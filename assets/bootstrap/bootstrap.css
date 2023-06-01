@@ -137,6 +137,10 @@ blockquote {
   margin: 0 0 1rem;
 }
 
+ul {
+  margin-top: 0;
+}
+
 
 a {
   color: #0d6efd;
